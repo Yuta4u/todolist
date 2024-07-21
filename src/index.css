@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#todo-list {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 2fr));
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+}
